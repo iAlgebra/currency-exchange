@@ -1,0 +1,14 @@
+{
+  "name": "currency-exchange",
+  "version": "0.0.1",
+  "description": "Frontend for exchangeratesapi.io",
+  "main": "index.js",
+  "repository": "https://github.com/iAlgebra/currency-exchange.git",
+  "author": "Maria Gabriela Barrios Cantera <barrios.cantera@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "spectre.css": "^0.5.3"
+  }
+}
