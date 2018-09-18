@@ -17,12 +17,12 @@ function changeValues(data) {
 		var $tr = document.createElement("tr");
 		var $tdCurrency = document.createElement("td");
 		var $tdRate = document.createElement("td");
-		//crear una fila
+		//creates a row
 		$tbody.appendChild($tr);
-		//crear una celda izq con el valor de currency
+		//creates a left cell with the currency value
 		$tr.appendChild($tdCurrency);
 		$tdCurrency.textContent = currency;
-		//crear otra celda der con el valor del rate
+		//creates a right cell with the rate value
 		$tr.appendChild($tdRate);
 		$tdRate.textContent = data.rates[currency];
 	}
