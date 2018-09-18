@@ -3,7 +3,7 @@ var $base = document.querySelector("#base");
 var $tbody = document.querySelector("#tBody");
 var $dateInput = document.querySelector("[name=date]");
 
-const API_BASE_URL = "https://exchangeratesapi.io/api/";
+const API_BASE_URL = "https://api.exchangeratesapi.io/";
 
 jQuery.ajax(API_BASE_URL + "latest", {
 	success: changeValues
